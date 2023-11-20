@@ -1,0 +1,42 @@
+{
+  "name": "@yuanliwei/vite-plugin-autoindex",
+  "version": "1.0.0",
+  "description": "vite plugin autoindex",
+  "type": "module",
+  "author": "yuanliwei",
+  "main": "plugin.js",
+  "files": [
+    "plugin.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "vite",
+    "plugin",
+    "index",
+    "autoindex"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuanliwei/vite-plugin-autoindex"
+  },
+  "homepage": "https://github.com/yuanliwei/vite-plugin-autoindex",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "publish": "npm publish --access public"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "peerDependencies": {
+    "vite": "*"
+  },
+  "peerDependenciesMeta": {
+    "vite": {
+      "optional": true
+    }
+  }
+}
